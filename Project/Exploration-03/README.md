@@ -5,21 +5,27 @@
     - 문제를 해결하는 완성된 코드란 프로젝트 루브릭 3개 중 2개, 
     퀘스트 문제 요구조건 등을 지칭
         - 해당 조건을 만족하는 부분의 코드 및 결과물을 캡쳐하여 사진으로 첨부
+        
         ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/911c8cab-cf88-467c-8600-a0a323445586)
+
         ![alt text](image-4.png)
 
 - [x]  **2. 프로젝트에서 핵심적인 부분에 대한 설명이 주석(닥스트링) 및 마크다운 형태로 잘 기록되어있나요? (설명)**
-    - [x]  ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/aa8f712b-5fe9-423f-bd27-2a1e05e9ae58)
-    - [x]  ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/5d533532-e901-4455-8205-fad31bbbf752)
+ 
+     ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/aa8f712b-5fe9-423f-bd27-2a1e05e9ae58)
+     ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/5d533532-e901-4455-8205-fad31bbbf752)
     
 
 
 - [x]  **3. 체크리스트에 해당하는 항목들을 모두 수행하였나요? (문제 해결)**
     - [x]  하이퍼파라미터를 변경해가며 여러 시도를 했나요? (learning rate, dropout rate, unit, batch size, epoch 등)
+  
            ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/6556ead8-c281-4984-8378-82787994b443)
            ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/d240eb8f-5e61-45e2-ac45-bdb6a7ed4053)
+           
     - [x]  각 실험을 시각화하여 비교하였나요?
     - [x]  모든 실험 결과가 기록되었나요?
+    
            ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/2a880d62-7868-4489-92dd-13ee72f62543) 
            ![image](https://github.com/LeeKyoungGyu/AIFFEL-QUEST/assets/154392651/e6c36a00-412e-42b4-b284-f5c091194f35)
 
