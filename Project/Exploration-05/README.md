@@ -34,3 +34,24 @@
     - [ ]  아쉬운 점
     - [ ]  느낀 점
     - [ ]  어려웠던 점
+ 
+---
+
+**추가 학습 내용**  
+1. Gensim을 이용한 similar_by_word 비교
+   - pretrained된 모델이 보다 유사한 단어를 잘 찾음  
+    ![image](https://github.com/DevHDL/AIFFEL/assets/163500244/a88c4468-643b-4c36-85bb-fd5d2891ff80)
+2. pretrained된 word2vector를 이용하여 lstm 모델에 학습
+   - lstm 모델은 다음과 같이 적용 (LSTM(100), Dropout(0.3), Dense(10))
+   ![image](https://github.com/DevHDL/AIFFEL/assets/163500244/83b00e77-f124-48da-a969-fd776244f77b)
+
+3. custom word2vector로 학습한 모델과의 비교
+    - 기존 lstm 모델
+        - accuracy : 0.8435, loss : 0.4729
+    -  pretrained를 사용한 lstm 모델
+        - accuracy : 0.8579, loss : 0.3619
+    - 정확도가 약 1.4% 상승함
+        - word2vector에서 체감한 유사 단어 찾기 성능에 비해 잘 안오른 느낌이 있음
+   ![image](https://github.com/DevHDL/AIFFEL/assets/163500244/29913350-8e6a-4ee5-8db5-893eafd00490)
+
+
