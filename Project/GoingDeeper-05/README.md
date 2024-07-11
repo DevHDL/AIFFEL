@@ -22,11 +22,11 @@
     - [X]  각 실험을 시각화하여 비교하였나요?
     - [X]  모든 실험 결과가 기록되었나요?
 
-[img](img/tfrec.png)
+![img](img/tfrec.png)
 
 tfrecord function을 사용하여 데이터셋을 형식에 맞게 처리
 
-[img](img/multi.png)
+![img](img/multi.png)
 
 20 에폭으로 진행한 테스트
 생각보다 적은 에폭에도 결과물이 좋지 않게 나와 왜 그런지에 대한 분석을 history에 저장해 시각화했으면 좋을 것 같다.
