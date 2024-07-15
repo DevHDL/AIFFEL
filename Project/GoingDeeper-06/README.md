@@ -1,4 +1,7 @@
-🔑 **PRT(Peer Review Template)**
+🔑 **PRT(Peer Review Template)**(이현동_reviewed_by_변인섭)
+* model학습과정을 실제로 진행하느라 진행을 못하셨다고 합니다. 방과 후 추가적으로 진행하신다고 들었습니다.
+* 저도 다 못했는데 같이 노력하면 Project 성공할 것 같습니다. ㅠㅠ 
+![image](https://github.com/user-attachments/assets/e4927cfd-717a-4574-9a4d-acaefc6f68af)
 
 - [ ]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요? (완성도)**
     - 문제에서 요구하는 최종 결과물이 첨부되었는지 확인
