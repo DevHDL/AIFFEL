@@ -1,0 +1,11 @@
+services:
+  api:
+    build: 
+      context: .
+      target: builder
+    container_name: 'fastapi-application' 
+    environment:
+      PORT: 7900
+    ports:
+      - '7900:7900'
+    restart: 'no'
