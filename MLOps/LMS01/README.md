@@ -45,7 +45,7 @@ LMS01
 - Postgres DB 환경 구축
     - port -> 5432:5432 설정
     - environment -> user, password, db
-        - 해당 변수는 data_generator.py의 psycopg2.connect() 변수와 동일하게 설정
+        - 해당 변수는 data_generator.py의 psycopg2.connect() 인자와 동일하게 설정
     - healthcheck
         - 서비스가 원활하게 동작하는지 테스트
         - 해당 서비스의 경우, DB 실행까지 걸리는 시간이 존재
