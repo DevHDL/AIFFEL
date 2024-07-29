@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+  # db(postgres)
+  postgres-server:
+    image: postgres:14.0
+    container_name: postgres-server
+    ports:
+      - 5432:5432
+    # db user, pw, db 수정
+    # data_generator.py -> main 수정
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_DB: mydb
+    # healthcheck : 서비스 동작 여부 체크
+    # test: service test command, interval: healthcheck 간격, timeout: 시간초과, retries: timeout 횟수
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-U", "user", "-d", "mydb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # data_generator.py -> Dockerfile
+  data-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: data-generator
+    # 서비스 간 종속성 순서대로 서비스 시작
+    # postgres-server 실행 후 서비스 시작
+    # healthcheck 완료 후 서비스 시작을 위해 condition 추가
+    depends_on:
+      postgres-server:
+        condition: service_healthy
+    command: ["postgres-server"]
+
+networks:
+  default:
+    name: mlops-network
