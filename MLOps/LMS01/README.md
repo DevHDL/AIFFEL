@@ -88,8 +88,8 @@ LMS01
     ```
     sudo docker ps
     ```
-    - 결과물
-    ![](images/01.png)물
+    - 결과물  
+    ![](images/01.png)
     
 - DB 내용 확인
     - postgres-server 컨테이너 환경 접속
@@ -101,5 +101,5 @@ LMS01
         ```
         PGPASSWORD=1234 psql -h postgres-server -p 5432 -U user -d mydb
         ```
-    - 결과물
+    - 결과물  
     ![](images/02.png)
